@@ -1,0 +1,465 @@
+/* ===================
+951 * 979
+==================== */
+@media screen and (max-width: 979px) {
+
+  .cars-search-price,
+  .cars-search-year {
+    margin-right: 11px;
+  }
+
+  .cars-search__form-tab-content {
+    font-size: 12px;
+  }
+}
+
+/* ===================
+720 * 979
+==================== */
+@media screen and (max-width: 950px) {
+  .wrapper,
+  .footer {
+    max-width: 950px;
+    width: auto;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+  }
+
+  /* HEADER BLOCK */
+  .section-wr {
+    width: 100%;
+    order: 2;
+  }
+
+  .logo_wr {
+    padding: 10px 10px;
+  }
+
+  .logo-img {
+    height: 85px;
+  }
+
+  .announc__new-car,
+  .announc__old-car {
+    width: 150px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 3px solid #fff;
+  }
+
+  .announc__old-car {
+    border: 3px solid #15d61f;
+  }
+
+  .menu {
+    padding-left: 0;
+  }
+
+  .menu__link {
+    padding: 5px 10px;
+  }
+
+  .main-new {
+    height: 280px ;
+  }
+
+   /* ASIDE BLOCK */
+  aside {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    order: 1;
+  }
+
+  .region-search {
+    order: 1;
+    margin: 10px 0;
+  }
+
+  .car-brand-search {
+    order: 2;
+  }
+
+  .cars-search {
+    align-items: stretch;
+    order: 3;
+    margin: 10px 0 10px 0px;
+  }
+
+  .cars-search-wr {
+    height: 100%;
+    padding: 20px 10px 0;
+    box-sizing: border-box;
+  }
+
+  .cars-search__form-select,
+  .cars-search__two-select {
+    margin-bottom: 15px;
+  }
+
+  .news__info {
+    font-size: 13px;
+  }
+
+  .footer-menu {
+    width: auto;
+    padding-left: 0;
+  }
+
+  .footer-menu__link {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+
+}
+
+/* ===================
+480 * 719
+==================== */
+@media screen and (max-width: 719px) {
+  .wrapper,
+  .footer {
+    max-width: 719px;
+  }
+
+  body,
+  h4 {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /* HEADER BLOCK */
+  .header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo_wr,
+  .menu-wr {
+    width: auto;
+  }
+
+  .announc {
+    padding-bottom: 10px;
+  }
+
+  .announc__old-car{
+    margin-right: 0;
+  }
+
+  .announc__new-car,
+  .announc__old-car {
+    width: 180px;
+    box-sizing: border-box;
+    padding-left: 30px;
+  }
+
+  .main-news__wr {
+    flex-direction: column;
+  }
+
+  .main-news__text {
+    margin-bottom: 0;
+    padding: 0 5px 0 10px;
+    line-height: 1.3;
+  }
+
+  .btn__read-more {
+    align-self: flex-end;
+    display: inline;
+    margin-right: 0;
+    padding: 5px 10px;
+    border: 0px solid transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: transparent;
+    color: #15d61f;
+  }
+
+  .btn__read-more:hover {
+    border: 0px solid transparent;
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .cars-search {
+    flex-shrink: 0;
+  }
+
+ /* HEADER BLOCK */
+  aside {
+    flex-wrap: wrap;
+  }
+
+  .region-search {
+    width: 47.5%;
+    box-sizing: border-box;
+  }
+
+  .car-brand-search {
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .region-search__link,
+  .car-brand__link {
+    font-size: 12px;
+  }
+
+  .cars-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cars-search-wr{
+    max-width: 678px;
+    min-width: 452px;
+    margin: 0 auto;
+  }
+
+  .cars-search__form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cars-search__form-left,
+  .cars-search__form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .cars-search__form-right {
+    align-items: flex-end;
+    margin-left: 8px;
+    margin-top: 35px;
+  }
+
+  .cars-search-title {
+    width: 50px;
+    text-align: left;
+  }
+
+  .cars-search__form-check,
+  .cars-search__form-select,
+  .cars-search__two-select,
+  .cars-search__form-search {
+    width: 100%;
+  }
+
+  .cars-search-brand,
+  .cars-search-region,
+  .cars-search-body,
+  .cars-search-price-select-wr {
+    width: 100%;
+  }
+
+  .cars-search-price,
+  .cars-search-year {
+    width: 47%;
+  }
+
+  .cars-search__form-check {
+    justify-content: flex-start;
+  }
+
+  .cars-search__form-check-photo-wr {
+    margin: 0;
+  }
+
+  .cars-search__form-search {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .cars-search-form-submit-btn {
+    margin-bottom: 10px;
+  }
+
+  /* NEWS BLOCK */
+  .news {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .news__img-wr {
+    position: relative;
+    margin-bottom:10px;
+  }
+
+  .news__img {
+    width: 100%;
+  }
+
+  .news__desc {
+    display: none;
+  }
+
+  .news__info {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .footer-menu {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+}
+
+/* ===================
+320 * 479
+==================== */
+@media screen and (max-width: 479px) {
+  .wrapper,
+  .footer {
+    max-width: 479px;
+    min-width: 240px;
+    width: auto;
+  }
+
+  body  {
+    font-size: 12px;
+  }
+
+  h3,
+  h4 {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  /* HEADER BLOCK */
+  .menu-wr,
+  .announc {
+    width: 100%;
+  }
+
+  .announc__new-car,
+  .announc__old-car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    box-sizing: border-box;
+    margin: 5px 10px;
+    padding: 5px 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  /* MAIN NEW BLOCK */
+  .main-news__desc {
+    display: none;
+  }
+
+  .main-new {
+    height: 200px;
+  }
+
+  .btn__read-more {
+    width: 45px;
+  }
+  
+  /* ASIDE BLOCK */
+  .region-search,
+  .cars-search,
+  .car-brand-search {
+    width: 100%;
+  }
+
+  .region-search__item {
+    width: 33%;
+  }
+
+  .car-brand-search {
+    margin: 0;
+  }
+
+  .cars-search-wr {
+    margin: 0 auto;
+    max-width: 452px;
+    min-width: 240px;
+  }
+
+  .cars-search__form {
+    flex-direction: column;
+  }
+
+  .cars-search__form-left,
+  .cars-search__form-right {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .cars-search__form-right {
+    margin: 0;
+  }
+
+  /* NEWS AND OVERVIEW BLOCK */
+  .news__info {
+    font-size: 12px;
+  }
+
+  a.news__read-more {
+    padding: 0;
+  }
+
+  .news-block,
+  .overview-block {
+    padding: 0 10px 10px;
+  }
+
+  .news__data {
+    margin-bottom: 10px;
+  }
+
+  .overview {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .footer-menu {
+    display: flex;
+  }
+
+  .footer-menu__link {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+}
