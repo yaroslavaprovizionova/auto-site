@@ -180,7 +180,7 @@ aside {
   max-width: 979px;
   width: auto;
   height: 380px;
-  background-image: url(img/main.jpg);
+  background-image: url(../img/main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
